@@ -1,0 +1,28 @@
+site_name: Azin
+site_url: https://docs.azin-lang.org
+
+theme:
+  name: material
+
+  palette:
+    scheme: slate
+    primary: black
+    accent: deep orange
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    - content.code.copy
+    - content.tabs.link
+
+    - toc.follow
+
+nav:
+  - Home: index.md
