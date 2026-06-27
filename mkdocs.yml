@@ -43,7 +43,12 @@ markdown_extensions:
   - pymdownx.snippets
 
 extra_css:
-  - stylesheet/extra.css    
+  - stylesheet/extra.css
+
+extra:
+  generator: false
 
 nav:
   - Home: index.md
+  - Std: std/index.md
+  - Language: language/index.md

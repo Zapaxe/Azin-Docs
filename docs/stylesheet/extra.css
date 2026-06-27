@@ -370,13 +370,24 @@ tbody tr:hover {
         0 18px 35px rgba(43,127,255,.18);
 }
 
-blockquote {
+.md-typeset blockquote {
+    margin: 1.5rem 0;
+    padding: 0.9rem 1.2rem;
 
-    border-left:5px solid var(--azin-blue);
+    border: 1px solid rgba(43,127,255,.18);
+    border-left: 4px solid var(--azin-blue);
 
-    background:var(--azin-bg-alt);
+    background: rgba(43,127,255,.06);
 
-    border-radius:12px;
+    border-radius: 14px;
+
+    color: var(--azin-text);
+
+    font-style: normal;
+}
+
+.md-typeset blockquote p {
+    margin: 0;
 }
 
 .md-typeset .admonition {
