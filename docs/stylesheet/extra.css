@@ -13,6 +13,12 @@
 
     --azin-radius: 20px;
 
+    --azin-code-bg: #f7f9fc;
+    --azin-code-border: #dbe7ff;
+
+    --azin-copy-bg: rgba(43,127,255,.08);
+    --azin-copy-hover: rgba(43,127,255,.16);
+
     --md-primary-fg-color: var(--azin-blue);
     --md-primary-fg-color--light: var(--azin-blue-light);
     --md-primary-fg-color--dark: var(--azin-blue-dark);
@@ -30,6 +36,12 @@
     --azin-muted: #9eb3d3;
 
     --md-primary-fg-color: #4d9dff;
+
+    --azin-code-bg: rgba(66,72,86,.82);
+    --azin-code-border: rgba(255,255,255,.08);
+
+    --azin-copy-bg: rgba(255,255,255,.05);
+    --azin-copy-hover: rgba(43,127,255,.18);
 }
 
 /* ------------------------------------------------ */
@@ -186,11 +198,11 @@ a:hover {
 
     border-radius: 28px;
 
-    background: rgba(66, 72, 86, 0.82);
+    background: var(--azin-code-bg);
+
+    border: 1px solid var(--azin-code-border);
 
     backdrop-filter: blur(18px);
-
-    border: 1px solid rgba(255,255,255,.08);
 
     box-shadow:
         0 12px 40px rgba(0,0,0,.22);
@@ -233,7 +245,7 @@ a:hover {
 
     border-radius:10px;
 
-    background:rgba(255,255,255,.05);
+    background: var(--azin-copy-bg);
 
     backdrop-filter:blur(12px);
 
@@ -242,7 +254,7 @@ a:hover {
 
 .md-clipboard:hover {
 
-    background:rgba(43,127,255,.18);
+    background: var(--azin-copy-hover);
 
     transform:scale(1.08);
 }
