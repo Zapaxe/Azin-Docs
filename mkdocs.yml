@@ -3,6 +3,8 @@ site_url: https://docs.azin-lang.org
 
 theme:
   name: material
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
 
   palette:
     - scheme: default
@@ -49,6 +51,16 @@ extra:
   generator: false
 
 nav:
+nav:
   - Home: index.md
-  - Std: std/index.md
-  - Language: language/index.md
+
+  - Std:
+      - Overview: std/index.md
+
+  - Language:
+      - Overview: language/index.md
+
+      - Syntax:
+          - Overview: language/syntax/index.md
+          - Functions: language/syntax/functions.md
+          - Variables: language/syntax/variables.md

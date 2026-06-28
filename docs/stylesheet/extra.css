@@ -196,6 +196,8 @@ a:hover {
         0 12px 40px rgba(0,0,0,.22);
 
     transition: .25s;
+
+    margin: 1.5rem 0; 
 }
 
 /* IMPORTANT */
